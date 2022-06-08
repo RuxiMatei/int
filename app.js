@@ -109,7 +109,7 @@ function createSession(a, t) {
         console.log(urls)
         let sessRetr = urlSessionIdentification + "/" + sessionId; 
 
-        //open(urls);
+        open(urls);
 
         // ----------- RETRIEVE SESSION DATA ----------------
         //let sessionRetrieveOptions = {
