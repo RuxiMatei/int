@@ -1,0 +1,29 @@
+<%- include('partials/header') %>
+
+
+<div class="jumbotron centered">
+  <div class="container">
+    <i class="fas fa-key fa-4x"></i>
+    <h1 class="display-4">Signicat Express API Testing</h1>
+    <!--<p class="lead">Do what you have to do</p>-->
+    <hr>
+
+    <div class="cont">
+      <div class="col-md-4">
+        <a>
+        <img src="bankid.png"  role="button"/> 
+          </a>
+      </div>
+      <div class="col-md-8">
+        <form action="/authSession" method="POST">
+          <a class="btn btn-block" href="/authSession" role="button" type="submit">
+            Sign in with BankID
+          </a>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
